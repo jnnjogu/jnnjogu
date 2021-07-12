@@ -31,3 +31,6 @@ def gene_writer(specieslist,outfile1):
 if __name__=='__main__':
   
     gene_writer(specieslist,outfile1)
+    
+    print('this is the name of the file to be extracted ', sys.argv[1])
+    print('this is the name of the output file ', sys.argv[2])
